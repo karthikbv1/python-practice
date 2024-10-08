@@ -1,0 +1,49 @@
+# Numeric Data Types
+integer_val = 10                    # Integer (int)
+float_val = 10.5                    # Float (float)
+complex_val = 2 + 3j                # Complex (complex)
+
+print("Integer:", integer_val)
+print("Float:", float_val)
+print("Complex:", complex_val)
+
+# String
+string_val = "Hello, Python!"       # String (str)
+print("String:", string_val)
+
+# Boolean
+boolean_val = True                  # Boolean (bool)
+print("Boolean:", boolean_val)
+
+# Sequence Types
+list_val = [1, 2, 3, 4, 5]          # List (list)
+tuple_val = (10, 20, 30, 40)        # Tuple (tuple)
+range_val = range(5)                # Range (range)
+
+print("List:", list_val)
+print("Tuple:", tuple_val)
+print("Range:", list(range_val))
+
+# Set
+set_val = {1, 2, 3, 4, 5}           # Set (set)
+print("Set:", set_val)
+
+# Dictionary
+dict_val = {'name': 'Karthik', 'age': 21}  # Dictionary (dict)
+print("Dictionary:", dict_val)
+
+# None Type
+none_val = None                     # NoneType
+print("None:", none_val)
+
+# Bytes
+bytes_val = b'Python'               # Bytes (bytes)
+print("Bytes:", bytes_val)
+
+# Bytearray
+bytearray_val = bytearray(5)        # Bytearray (bytearray)
+print("Bytearray:", bytearray_val)
+
+# Memoryview
+memview_val = memoryview(bytes(b"Hello"))  # Memoryview (memoryview)
+print("Memoryview:", memview_val)

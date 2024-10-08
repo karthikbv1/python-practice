@@ -1,0 +1,9 @@
+x = int(input("Enter the start of the range: "))
+y = int(input("Enter the end of the range: "))
+total = 0  # Initialize sum
+
+while x <= y:
+    total += x  # Add the current number to total
+    x += 1  # Move to the next number
+
+print("The sum of the numbers in the given range is:", total)

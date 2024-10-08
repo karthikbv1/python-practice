@@ -1,0 +1,8 @@
+x=int(input("Enter a Number"))
+if x>=100 and x<=999:
+    number=str(x)
+    mid=int(number[1])
+    if mid % 3==0:
+       print("Its a Trendy Number")
+    else:
+        print("Its not a Trendy Number")

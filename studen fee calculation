@@ -1,0 +1,16 @@
+print("MSDT","MSH","MGSDS","MGSH")
+w=(input("student type"))
+b=int(input("tution fess:"))
+c=int(input("Bus fees:"))
+d=int(input("Hostel fees:"))
+print("total fess")
+if w == "MSDT":
+ print(b + c)
+elif w == "MSH":
+ print(b + d)
+elif w == "MGSDS":
+ print(b*2.5+C)
+elif w == "MGSH":
+ print(b*2.5+d)
+else:
+ print("error")

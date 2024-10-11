@@ -1,0 +1,7 @@
+h="hello world"
+print(h[-1])
+print(h[:4])
+print(h[4:])
+print(h[:-4])
+print(h[-4:])
+print(h[1:-4])

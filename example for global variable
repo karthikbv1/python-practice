@@ -1,0 +1,7 @@
+varaiable=0
+def sum(x,y):
+ global varaible
+ varaible=x+y
+sum(19,3)
+print("the result is:",varaible)
+

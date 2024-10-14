@@ -1,0 +1,11 @@
+def user(y):
+    curentnum=str(y)
+    curentsum= int(curentnum[0])+int(curentnum[1])
+    curentpro=int(curentnum[0])*int(curentnum[1])
+    if curentsum+curentpro==y:
+        return "it is spesial number"
+    else:
+        return "it is not a special number"
+y=int(input())
+
+print(user(y))

@@ -1,0 +1,10 @@
+def userdefined(x,y,z):
+    add=x+y+z
+    cproduct=x*y*z
+    
+    return add,cproduct
+    
+x=int(input())
+y=float(input())
+z=int(input())
+print(userdefined(x,y,z))

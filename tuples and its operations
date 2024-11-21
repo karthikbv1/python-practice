@@ -1,0 +1,2 @@
+tuple=(18,89,43,22,12,)
+print(sorted(tuple))
